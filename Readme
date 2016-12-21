@@ -1,0 +1,13 @@
+
+Contents of the Directory:
+
+			1.guish.cpp - main fuction is present in this file, entire code with doccumentation is available in this file
+
+			2.guish.l - This file helps to tokenize the command entered by the user
+
+			3.makefile - guish.cpp, guish.l is directly compiled using this make file, just run 'make' in current 
+						directory.
+			4.Readme.txt
+
+Islander Shell :
+					Utilization of fork and exec is the main aim of this project. 'hist' is the shell inbuilt command and it is implemented by using linked list provided by the STL library. For I/O redirection 'dup2' a system call to duplicate the file discriptors is used. Finally Islander shell is simple replecation of original shell with two inbuilt commands [hist, r n]
